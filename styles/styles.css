@@ -1,0 +1,41 @@
+body{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.container {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+
+#text {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+#listenButton, button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#listenButton:hover, button:hover {
+    background-color: #0056b3;
+}
+
+#listenButton:active, button:active {
+    background-color: #003988;
+}
