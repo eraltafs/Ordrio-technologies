@@ -15,7 +15,7 @@ To use this application locally, follow these steps:
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/eraltafs/Ordrio-technologies.git
    ```
 2. Open the project folder in  `VS code` and Go Live.
 
